@@ -15,6 +15,12 @@ colors:
 body{
 	border-style:solid;
 	border-color:#ffd24a;
+	font-family:Helvetica, Arial, sans-serif;
+	/*line-height: 1.6px; */
+	/* ^made the mistake of doing this last, it ruins the whole page */
+}
+a{
+	color:#1fabe5;
 }
 #site_header{
 	background-color: #ff8523;
@@ -31,6 +37,7 @@ body{
 	margin-right:1px;
 	padding-left:20px;
 	padding-right:20px;
+
 }
 #page_content h2{
 	color:#1fabe5;
@@ -74,4 +81,14 @@ form{
 	padding: 15px;
 	color:white;
 	font-size:20px;
+}
+.submit_container{
+
+}
+#submit_button{
+	background-color:#1fabe5;
+	color:white;
+	font-size:20px;
+	padding:10px;
+	border-radius:10px;
 }
